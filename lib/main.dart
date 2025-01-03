@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:test_borrar_video_player/better_player_test.dart'; //DONT DELETE FOR TESTING
 import 'package:test_borrar_video_player/chewie_player_test.dart';
 import 'package:test_borrar_video_player/video_player_test.dart';
+import 'package:test_borrar_video_player/vlc_player_test.dart';
 import 'package:test_borrar_video_player/yoyo_player_test.dart';
 
 void main() {
@@ -23,9 +24,11 @@ class MyApp extends StatelessWidget {
       ),
       //TODO TEST HERE
       //home: const BetterPlayerTest(), // NOT WORKING
-      //home: const VideoPlayerTest(),// NOT WORKING
-      // home: const ChewiePlayerTest(), // NOT WORKING
-      home: const YoYoPlayerTest(),
+      //home: const VideoPlayerTest(), // NOT WORKING
+      //home: const ChewiePlayerTest(), // NOT WORKING
+      home: const VLCPlayerTest(), // WORKS
+
+      // home: const YoYoPlayerTest(),// NOT WORKING DELETED
     );
   }
 }

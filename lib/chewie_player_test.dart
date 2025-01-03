@@ -24,7 +24,7 @@ class _ChewiePlayerTestState extends State<ChewiePlayerTest> {
 
     _chewieController = ChewieController(
       videoPlayerController: _videoPlayerController,
-      aspectRatio: 16 / 9,
+      aspectRatio: 9 / 16,
       autoPlay: true,
       looping: true,
       showControls: true,

@@ -48,8 +48,8 @@ dev_dependencies:
   video_player:
   better_player_enhanced:
   chewie:
-  # flutter_vlc_player:
-  lecle_yoyo_player:
+  flutter_vlc_player:
+  # lecle_yoyo_player:  #errors with namespace
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
